@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: anhpham-981580076336-exercise2
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: anhpham
+  POSTGRES_DB: anhpham_exercise_3_dev
+  POSTGRES_HOST: anhpham-exercise-3-dev.c7h3k3qmi1jj.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
