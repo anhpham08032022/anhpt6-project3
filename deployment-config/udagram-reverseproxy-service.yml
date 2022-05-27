@@ -11,8 +11,5 @@ spec:
     targetPort: 8080
   selector:
     app: udagram-reverseproxy
-  sessionAffinity: None
-  type: ClusterIP
-status:
-  loadBalancer: {}  
+  type: LoadBalancer  
 
