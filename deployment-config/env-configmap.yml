@@ -7,6 +7,6 @@ data:
   JWT_SECRET: anhpham
   POSTGRES_DB: anhpham_exercise_3_dev
   POSTGRES_HOST: anhpham-exercise-3-dev.c7h3k3qmi1jj.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://a3c07eb1b3de3490495e2b118da7e31d-2085647904.us-east-1.elb.amazonaws.com
 metadata:
   name: env-config
